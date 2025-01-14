@@ -1,0 +1,24 @@
+.skillBox{
+    border: 2px solid #A294F9;
+    border-radius: 10px;
+
+    background-color: #E5D9F2;
+    color: #A294F9;
+
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 15px;
+    margin: 10px 5px;
+}
+
+.navButton{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 25px;
+    margin: 10px 5px;
+    border-radius: 10px;
+    border: transparent;
+
+    background-color: #A294F9;
+    color: white;
+  }

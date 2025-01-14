@@ -1,0 +1,22 @@
+.navStyle{
+  height: 100px;
+  font-weight: 500;
+  font-size: 18px;
+  background-color: white;
+}
+
+*{
+  background-color: #F5EFFF;
+}
+
+.navbar-nav .nav-link {
+  color: #000; /* Adjust link color */
+}
+
+.navbar {
+  padding: 0; /* Removes extra padding from Navbar */
+}
+
+.container {
+  padding: 0; /* Removes extra padding from Container */
+}

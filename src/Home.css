@@ -1,0 +1,42 @@
+.socials{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.underorder{
+    background-color: white;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 220px;  
+    list-style: none;  
+    padding: 0px;
+    margin: 0px;
+}
+
+.naviButton{
+    font-size: 25px;
+    font-weight: 500;
+    padding: 10px 50px;
+    margin: 80px 5px;
+    border-radius: 10px;
+    border: transparent;
+
+    background-color: #A294F9;
+}
+
+.icons{
+    color: #8D77AB;
+    font-size: 32px;
+}
+
+
+@media (max-Width: 768px) {
+    .socials{
+        visibility: hidden;
+    }
+}
