@@ -1,26 +1,43 @@
 // import React from 'react'
 
+import { Col, Container, Row } from "react-bootstrap"
+
 const Footer = () => {
   return (
     <>
-        <div className="container-fluid bg-dark">
-            <div>
-                <div>
-                    <h3>Gauri Santhosh</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique ullam dolor voluptatem aut adipisci itaque.</p>
-                </div>
-                <div>
-                    <h3>SOCIAL</h3>
-                    <div>
-                        
+        <footer className="container-fluid bg-dark text-light d-flex">
+            <Container style={{color:'#8D77AB'}} className="bg-dark my-5">
+                <Row >
+                    <Col className="bg-dark">
+                        <div  className="d-flex justify-content-between bg-dark">
+                            <div className="bg-dark ">
+                                <h3 className="bg-dark  ">Gauri Santhosh</h3>
+                                <p className="bg-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique ullam dolor voluptatem aut adipisci itaque.</p>
+                            </div>
+                        </div>
+                    </Col>
+                    <Col className="bg-dark d-flex justify-content-center">
+                        <div className="bg-dark">
+                            <h3 className="bg-dark text-center">SOCIAL</h3>
+                            <div className="d-flex bg-dark mt-3">
+                                {/* name, email, msg */}
+                                <i className="fa-brands fa-linkedin-in icons mx-3" style={{backgroundColor:'transparent'}}></i>
+                                <i className="fa-brands fa-github icons mx-3" style={{backgroundColor:'transparent'}}></i>
+                                <i className="fa-brands fa-dev icons mx-3" style={{backgroundColor:'transparent'}}></i>
+                            </div>
+                        </div>
+                    </Col>
+                </Row>
+                <hr style={{ height:'3px', borderRadius:'5px'}}/>
+                <Row className="mb-3">
+                    <div className="text-center bg-dark ">
+                    &copy; Copyright 2025. Made by  <span><a href="https://gauri-portfolio-delta.vercel.app/" className="bg-dark text-light" style={{textDecoration:'none'}}>Gauri Santhosh</a></span>
                     </div>
-                </div>
-            </div>
-            <hr style={{color:'white'}}/>
-            <div style={{backgroundColor:'transparent', color:'white'}} className="text-center">
-                &copy; Copyright 2025. Made by <span>Gauri Santhosh</span>
-            </div>
-        </div>
+                </Row>
+            </Container>
+
+
+        </footer>
     </>
   )
 }

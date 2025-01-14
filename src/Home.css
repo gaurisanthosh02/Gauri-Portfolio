@@ -1,8 +1,12 @@
+#home{
+    padding: 100px 0px;
+}
+
 .socials{
     position: absolute;
     top: 50%;
     left: 0;
-    transform: translateY(-50%);
+    transform: translateY(-30%);
 }
 
 .underorder{
@@ -40,3 +44,5 @@
         visibility: hidden;
     }
 }
+
+
