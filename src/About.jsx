@@ -7,16 +7,18 @@ const About = () => {
     <>
        <div id="about" className="d-flex">
             <Container fluid>
-                <h1 style={{color:'#8D77AB'}} className="text-center mt-2 mb-4">About Me</h1>
+                <h1 style={{color:'#8D77AB'}} className="text-center mt-2 mb-4">About</h1>
                 <Row>
                     <Col md={6} sm={12}>
                     <div className="text-center px-3 mt-2">
-                        <h2 style={{color:'#8D77AB'}} className="text-center">Lorem, ipsum.</h2>
-                        <p className="text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem sint at error recusandae consequatur quaerat laudantium cumque asperiores voluptate! Inventore, quo architecto. Dolore sapiente libero dolor, modi consectetur veritatis ipsam.
-                        Tenetur eum, sequi recusandae esse asperiores atque autem qui repellat rem. Maxime, excepturi. Autem nihil quam aliquid saepe ducimus dolore pariatur quia aut tenetur provident odit, dicta, distinctio vero minima.
-                        Adipisci obcaecati dolorem velit porro, dolor facilis mollitia reiciendis accusamus voluptas excepturi fugit esse nobis alias pariatur minus? Corrupti laboriosam corporis dolore architecto at rem magni mollitia fuga error qui.
-                        Fuga consectetur similique animi facilis blanditiis sit voluptatem, totam quam, quis molestiae adipisci, esse nobis fugit accusamus eum soluta maiores tempore tenetur. Explicabo voluptate inventore assumenda earum dignissimos unde alias?</p>
-                        <button className="navButton">Contact</button>
+                        <h2 style={{color:'#8D77AB'}} className="text-center">Get to know me!</h2>
+                        <p className="text-start">Im a 2024 Computer Science and Engineering Graduate with a passion for <strong>web development</strong>. <br />
+                        Currently I am pursuing a <strong>MEARN Stack</strong> course, where I’m gaining hands-on experience in building dynamic and user-friendly web applications.<br />
+                        My goal is to craft meaningful applications that blends technology and creativity. <br />
+                        I’m excited to bring my skills and enthusiasm to a team where I can continue to grow and contribute. <br />
+                        Scroll down to explore some of the projects I’ve build, and feel free to connect with me for collaboration or job opportunities!
+                        </p>
+                        <button className="navButton"><a href="#contact" style={{textDecoration:'none', backgroundColor:'transparent', color:'white'}}>Contact</a></button>
                     </div>
                     </Col>
                     <Col md={6} sm={12}>
