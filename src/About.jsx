@@ -9,8 +9,8 @@ const About = () => {
             <Container fluid>
                 <h1 style={{color:'#8D77AB'}} className="text-center mt-2 mb-4">About Me</h1>
                 <Row>
-                    <Col>
-                    <div className="text-center px-3">
+                    <Col md={6} sm={12}>
+                    <div className="text-center px-3 mt-2">
                         <h2 style={{color:'#8D77AB'}} className="text-center">Lorem, ipsum.</h2>
                         <p className="text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem sint at error recusandae consequatur quaerat laudantium cumque asperiores voluptate! Inventore, quo architecto. Dolore sapiente libero dolor, modi consectetur veritatis ipsam.
                         Tenetur eum, sequi recusandae esse asperiores atque autem qui repellat rem. Maxime, excepturi. Autem nihil quam aliquid saepe ducimus dolore pariatur quia aut tenetur provident odit, dicta, distinctio vero minima.
@@ -19,8 +19,8 @@ const About = () => {
                         <button className="navButton">Contact</button>
                     </div>
                     </Col>
-                    <Col>
-                        <h2 style={{color:'#8D77AB'}} className="text-center">Skills</h2>
+                    <Col md={6} sm={12}>
+                        <h2 style={{color:'#8D77AB'}} className="text-center mt-2">Skills</h2>
                         <div>
                             <button className="skillBox">HTML</button>
                             <button className="skillBox">CSS</button>
