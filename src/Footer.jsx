@@ -12,7 +12,7 @@ const Footer = () => {
                         <div  className="d-flex justify-content-between bg-dark">
                             <div className="bg-dark ">
                                 <h3 className="bg-dark  ">Gauri Santhosh</h3>
-                                <p className="bg-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique ullam dolor voluptatem aut adipisci itaque.</p>
+                                <p className="bg-dark">Passionate Developer. <br /> Loves learning new Technologies.</p>
                             </div>
                         </div>
                     </Col>

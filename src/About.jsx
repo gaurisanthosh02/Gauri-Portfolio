@@ -37,7 +37,7 @@ const About = () => {
                             <button className="skillBox">Java</button>
                             <button className="skillBox">Responsive Designs</button>
                             <button className="skillBox">Rest APIs</button>
-                            <button className="skillBox">HTML</button>
+                            <button className="skillBox">Motion Dev</button>
     
                         </div>
                     </Col>
